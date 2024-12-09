@@ -3,7 +3,7 @@ instructions  = [
     """
 
          CREATE TABLE email (
-              id INT PRIMARY KEY AUTO_INCREMENT PRIMARY KEY,
+              id INT AUTO_INCREMENT PRIMARY KEY,
               email TEXT NOT NULL,
               subject TEXT NOT NULL,
               content TEXT NOT NULL
