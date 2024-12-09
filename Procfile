@@ -1,1 +1,1 @@
-web: gunicorn 'app.__init__:create_app()'
+web: gunicorn 'MAILERAPP.app.__init__:create_app()' --bind 0.0.0.0:$PORT
